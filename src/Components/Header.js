@@ -1,7 +1,10 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
+import Particles from 'react-particles-js';
 
-const Header = ({ data }) => {
+
+const Header = ({ data, obj }) => {
+  const bck=obj;
   if (data) {
     var name = data.name;
     var occupation = data.occupation;
@@ -20,6 +23,7 @@ const Header = ({ data }) => {
 
   return (
     <header id="home">
+      <Particles params={bck}/>
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
           Show navigation
@@ -49,11 +53,11 @@ const Header = ({ data }) => {
               Works
             </a>
           </li>
-          <li>
-            <a className="smoothscroll" href="#testimonials">
-              Testimonials
-            </a>
-          </li>
+          {/*<li>*/}
+          {/*  <a className="smoothscroll" href="#quotes">*/}
+          {/*    Quote*/}
+          {/*  </a>*/}
+          {/*</li>*/}
           <li>
             <a className="smoothscroll" href="#contact">
               Contact
@@ -65,10 +69,10 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            <TypeWriter typing={0.5}>{name ? `Hi! I'm ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+            I'm a {occupation}. <span>Based in {city}.</span> {description}.
           </h3>
           <hr />
           <ul className="social">{networks}</ul>
