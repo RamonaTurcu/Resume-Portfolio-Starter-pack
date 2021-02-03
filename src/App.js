@@ -6,7 +6,6 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Quote from "./Components/Quote";
-import Portfolio from "./Components/Portfolio";
 
 import "./App.css";
 
