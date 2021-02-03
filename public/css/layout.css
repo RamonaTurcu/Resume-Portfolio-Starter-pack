@@ -182,7 +182,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #19d6f0; }
+ul#nav li.current a { color: #0d888c; }
 
 
 /* ------------------------------------------------------------------ */
@@ -198,7 +198,7 @@ ul#nav li.current a { color: #19d6f0; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #0d888c; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -240,14 +240,14 @@ ul#nav li.current a { color: #19d6f0; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #11ABB0;
+   background: #0d888c;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a, #resume a:visited  { color: #0b777b; }
+#resume a:hover, #resume a:focus { color: #0b777b; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -255,7 +255,7 @@ ul#nav li.current a { color: #19d6f0; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #0b777b;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -981,7 +981,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #0d888c;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
